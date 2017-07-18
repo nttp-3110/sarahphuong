@@ -44,11 +44,9 @@ body {
 }
 #header .header-block {
     padding-top: 3px;
+    position: relative;
+    position: inherit;
     font-size: 13px;
-    position: fixed;
-    background: #eee;
-    width: 100%;
-    z-index: 1000
 }
 #header .header-block .phone {
     float: left;

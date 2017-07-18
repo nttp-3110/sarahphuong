@@ -1,7 +1,0 @@
-{
-    "extends": "rallycoding",
-    "rules": {
-        "no-useless-concat": "off",
-        "import/no-extraneous-dependencies": "off"
-    }
-}
