@@ -7,21 +7,15 @@
 a{
     text-decoration: none
 }
-.header-container {
-    margin-bottom: 75px;
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-    background: #eee;
-}
-.header-container .header-top {
+nav{
     background: #dc0609 !important;
     height: 65px;
     position: fixed;
+    top: 6%;
     z-index: 100;
     width: 100%;
 }
-.header-container .logo {
+nav .logo {
     display: block;
     text-align: center;
     box-shadow: 0 0 5px rgba(0,0,0,.5);
