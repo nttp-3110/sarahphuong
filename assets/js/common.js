@@ -47,40 +47,7 @@ window.onclick = function(event) {
   }
 }
 
-// Load page content
 
-function loadPage(place, address){
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById(place).innerHTML =
-      this.responseText;
-    }
-  };
-  xhttp.open("GET", address, true);
-  xhttp.send();
-}
-
-
-
-//load page Home
-function loadPageHome(){
-  loadPage("c-content","./assets/include/index.html" )
-};
-
-function loadPageService(){
-  loadPage("c-content","./assets/include/_pageService.html" )
-};
-
-function loadPageChracter(){
-  loadPage("c-content","./assets/include/_pageCharacter.html" )
-};
-function loadPageConsult(){
-  loadPage("c-content","./assets/include/_pageConsult.html" )
-};
-function loadPageProfile(){
-  loadPage("c-content","./assets/include/_pageProfile.html" )
-};
 // responsive
 $(window).resize(function(){
   
