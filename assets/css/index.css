@@ -688,6 +688,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    font-size: 32.25%;
+  }
   body {
     max-width: 100%;
     min-width: 320px;
@@ -775,14 +778,14 @@
     z-index: 10;
     width: 10%;
     right: 0;
-    top: -60%;
+    top: -40%;
     color: #b92d26;
     background: #fff;
-    font-size: 3rem;
+    font-size: 6rem;
     cursor: pointer;
   }
   .l_nav nav .btnClick {
-    top: -60px !important;
+    top: -40px !important;
   }
   .l_nav nav .dropdown_content {
     background: rgba(185, 45, 38, 0.71);

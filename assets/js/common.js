@@ -48,11 +48,11 @@ window.onclick = function(event) {
 }
 
 
+
 // responsive
-$(window).resize(function(){
-  
+$(window).resize(function(event){
+ 
      var width = $(window).width();
-     console.log(width);
      if (width <= 768){
         $('.character .container').addClass('container-fluid');
         $('.character .container').removeClass('container');
@@ -138,8 +138,16 @@ $(window).resize(function(){
  }
 
 
+
  causeRepaintsOn = $("h1, h2, h3, p");
  
  $(window).resize(function() {
    causeRepaintsOn.css("z-index", 1);
  });
+
+
+
+//  /////fontsize
+
+// function fontSizeBtnClickHandler(event)
+// {

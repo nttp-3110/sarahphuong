@@ -1781,19 +1781,25 @@ img {
   }
   .service .s_content .s_icon {
     display: block;
-    width: 20%;
+    width: 15%;
     float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .service .s_content .s_icon img {
     margin-top: 0;
     width: 100%;
+    max-width: 5rem;
+    height: auto;
+    max-height: 7rem;
   }
   .service .s_content .s_title {
-    padding: 20px 0 0 15px;
+    padding: 2rem 2rem 0 1.5rem;
     background: #b92d26;
     width: 80%;
     float: right;
-    min-height: 80px;
+    min-height: 7rem;
     position: relative;
   }
   .service .s_content .s_title span {
@@ -1850,10 +1856,6 @@ img {
 /*------------------------------------------------------------
 	Layout
 ------------------------------------------------------------*/
-html {
-  font-size: 10px;
-}
-
 body {
   min-width: 128rem;
   /* ウインドウ幅で横スクロール時に背景が切れるバグ対策でコンテンツと同じ幅を指定 */
@@ -1862,6 +1864,18 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+/* =13px */
+h1 {
+  font-size: 20px;
+  font-size: 2rem;
+}
+
+/* =20px */
 .container-fluid {
   padding: 0;
   width: 100%;
@@ -1883,6 +1897,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   overflow: hidden;
+}
+
+.fs {
+  font-size: 12px;
 }
 
 .mb {
